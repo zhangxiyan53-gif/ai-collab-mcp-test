@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ai-collab-mcp-test
+    runtime: python
+    plan: free
+    buildCommand: "pip install -r requirements-mcp.txt"
+    startCommand: "python mcp_sdk_server.py"
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.0"
