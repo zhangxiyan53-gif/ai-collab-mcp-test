@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1600" viewBox="0 0 900 1600">
+<!-- 《第一次有名字》原创角色候选：墨蓝折页。与任何毛绒圆脸吉祥物无关。纯矢量视觉原型。 -->
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#071222"/><stop offset="1" stop-color="#264160"/></linearGradient>
+<linearGradient id="coat" x2="1" y2="1"><stop stop-color="#54749c"/><stop offset="1" stop-color="#112642"/></linearGradient>
+<linearGradient id="head" x2="1" y2="1"><stop stop-color="#7496bd"/><stop offset=".44" stop-color="#284c7b"/><stop offset="1" stop-color="#0b1a34"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#f4cb84" stop-opacity=".6"/><stop offset="1" stop-color="#f4cb84" stop-opacity="0"/></radialGradient></defs>
+<rect width="900" height="1600" fill="url(#sky)"/>
+<circle cx="450" cy="660" r="370" fill="url(#halo)" opacity=".3"/>
+<ellipse cx="449" cy="1325" rx="215" ry="27" fill="#050e19" opacity=".65"/>
+<!-- flexible bronze ribbon, its only warm accent besides core -->
+<path d="M536 951 C672 925 697 1160 818 1000" stroke="#e7b16d" stroke-width="22" fill="none" stroke-linecap="round"/>
+<path d="M813 1000 l40 -12 -20 42Z" fill="#f1d08a"/>
+<!-- legs -->
+<path d="M379 1110 L337 1321 M510 1110 L553 1321" stroke="#2d4f79" stroke-width="38" stroke-linecap="round"/>
+<path d="M339 1321 L292 1334 M553 1321 L606 1336" stroke="#7b9aba" stroke-width="30" stroke-linecap="round"/>
+<!-- arms -->
+<path d="M304 848 L211 1054 M588 848 L676 1054" stroke="#385c84" stroke-width="28" stroke-linecap="round"/>
+<path d="M211 1054 l-23 26 M676 1054 l24 25" stroke="#9db2ce" stroke-width="21" stroke-linecap="round"/>
+<!-- angular folded body -->
+<path d="M309 794 L450 717 L596 793 L550 1160 L346 1160Z" fill="url(#coat)" stroke="#b4c7dd" stroke-width="5"/>
+<path d="M309 794 L450 878 L450 1160 L346 1160 Z" fill="#5876a2" opacity=".35"/>
+<path d="M450 878 L596 793 L550 1160 L450 1160Z" fill="#0a1b35" opacity=".55"/>
+<!-- prominent asymmetrical triangular folded head; no round head/eyes/cheeks/fur -->
+<path d="M240 718 L482 385 L656 677 L587 819 L311 828Z" fill="url(#head)" stroke="#c0cfe0" stroke-width="6" stroke-linejoin="round"/>
+<path d="M240 718 L482 385 L432 786 L311 828Z" fill="#8cabcb" opacity=".47"/>
+<path d="M482 385 L656 677 L587 819 L432 786Z" fill="#0d203f" opacity=".7"/>
+<!-- one horizontal amber luminous slit, no facial features -->
+<path d="M396 714 L515 714" stroke="#d4a16a" stroke-width="36" opacity=".35" stroke-linecap="round"/>
+<path d="M396 714 L515 714" stroke="#f6d393" stroke-width="10" stroke-linecap="round"/>
+<!-- four-diamond chest emblem -->
+<path d="M451 914 L470 938 L451 962 L431 938Z" fill="#f3c77f"/>
+<path d="M451 898 L451 975" stroke="#f9e1b6" stroke-width="2" opacity=".65"/>
+</svg>
